@@ -1,0 +1,9 @@
+Flask
+gdown
+numpy
+Pillow
+tensorflow
+gunicorn
+python-dotenv
+sklearn
+tqdm
