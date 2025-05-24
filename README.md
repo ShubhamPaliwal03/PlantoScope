@@ -1,4 +1,4 @@
-# 🌿 PlantoScope – AI-Powered Plant Disease Detection App
+# PlantoScope – AI-Powered Plant Disease Detection App 🌿
 
 PlantoScope is a mobile application that leverages deep learning to detect plant diseases from leaf images. Built to support farmers, agriculturists, and researchers, the app enables users to capture or upload images of plant leaves, which are then analyzed using a pre-trained Convolutional Neural Network (CNN) model.
 
