@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "PlantoScope",
+    "slug": "Plantoscope",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/splash-icon-dark.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/icons/ios-dark.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "icon": "./assets/icons/splash-icon-dark.png",
+      "package": "com.plantoscope.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/icons/splash-icon-dark.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/icons/splash-icon-light.png",
+          "imageDarkMode": "./assets/icons/splash-icon-dark.png", 
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "87586f6e-a953-4f4a-b072-d3cfe2a140e2"
+      }
+    },
+    "owner": "shubham_paliwal"
+  }
+}
